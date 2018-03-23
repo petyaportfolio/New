@@ -100,18 +100,18 @@ public class Helper {
     }
 
 
-//        @Test
-//        public void verifyDisabledObject(){
-//            driver.get(theURLhere);
-//            String className = driver.findElement(By.xpath(xpathOfElement)).getAttribute("class");
-//            Assert.assertEquals(className, "IamDisabled");
-//}
+        @Test
+        public void verifyDisabledObject(){
+            driver.get(theURLhere);
+            String className = driver.findElement(By.xpath(xpathOfElement)).getAttribute("class");
+            Assert.assertEquals(className, "IamDisabled");
+}
 
- //       @Test
-//        public void verifyEnabledObject(){
-//            driver.get(theURLhere);
-//            String className = driver.findElement(By.xpath(xpathOfElement)).getAttribute("class");
-//            Assert.assertNotEquals(className, "IamDisabled");
+        @Test
+        public void verifyEnabledObject(){
+            driver.get(theURLhere);
+            String className = driver.findElement(By.xpath(xpathOfElement)).getAttribute("class");
+            Assert.assertNotEquals(className, "IamDisabled");
 
 
 
